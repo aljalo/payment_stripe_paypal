@@ -1,0 +1,36 @@
+name: payment_using_stripe
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+dependencies:
+  cupertino_icons: ^1.0.8
+  dartz: ^0.10.1
+  dio: ^5.9.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  flutter_credit_card: ^4.1.0
+  flutter_paypal_payment: ^1.0.8
+  flutter_stripe: ^11.5.0
+  font_awesome_flutter: ^10.9.0
+  svg_flutter: ^0.0.1
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
